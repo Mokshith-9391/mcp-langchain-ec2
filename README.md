@@ -6,8 +6,6 @@
 [![AWS](https://img.shields.io/badge/AWS-EC2-orange?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-*Cloud Soft Solutions — APEX / NEXUS Lab*
-
 > A LangChain agent that talks to **three MCP (Model Context Protocol) servers** — Weather, Jira and EC2 — all deployed on a single EC2 instance. The LLM never calls APIs directly; it reads each tool's name + docstring, decides which tool to use, and the MCP server does the real work.
 
 ---
@@ -248,14 +246,4 @@ Contributions are welcome! Feel free to:
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
----
 
-## 👤 Author
-
-**Mokshith Reddy** — [Cloud Soft Solutions](https://github.com/Mokshith-9391)
-
----
-
-<p align="center">
-  Made with ❤️ for the APEX / NEXUS Lab
-</p>
