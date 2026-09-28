@@ -1,0 +1,11 @@
+# ---- MCP + LangChain ----
+mcp>=1.30.0                     # Official MCP Python SDK (FastMCP servers)
+langchain>=1.4.0                # create_agent + init_chat_model
+langchain-mcp-adapters>=0.3.2   # Turns MCP tools into LangChain tools
+langchain-anthropic>=1.7.0      # Claude models   (LLM_MODEL=anthropic:...)
+langchain-openai>=1.6.0         # OpenAI models   (LLM_MODEL=openai:...)
+
+# ---- Server dependencies ----
+httpx>=0.28.0                   # HTTP client for Weather + Jira APIs
+boto3>=1.40.0                   # AWS SDK for the EC2 server
+python-dotenv>=1.0.0            # Loads settings from .env
